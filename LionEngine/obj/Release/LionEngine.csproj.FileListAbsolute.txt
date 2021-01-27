@@ -1,0 +1,9 @@
+C:\dev\LionEngine\LionEngine\bin\Release\LionEngine.exe.config
+C:\dev\LionEngine\LionEngine\bin\Release\LionEngine.exe
+C:\dev\LionEngine\LionEngine\bin\Release\LionEngine.pdb
+C:\dev\LionEngine\LionEngine\bin\Release\NAudio.dll
+C:\dev\LionEngine\LionEngine\bin\Release\NAudio.xml
+C:\dev\LionEngine\LionEngine\obj\Release\LionEngine.csprojAssemblyReference.cache
+C:\dev\LionEngine\LionEngine\obj\Release\LionEngine.csproj.CopyComplete
+C:\dev\LionEngine\LionEngine\obj\Release\LionEngine.exe
+C:\dev\LionEngine\LionEngine\obj\Release\LionEngine.pdb
