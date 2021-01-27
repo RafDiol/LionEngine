@@ -1,0 +1,10 @@
+C:\Users\rafae\source\repos\LionEngine\LionEngine\bin\Debug\LionEngine.exe.config
+C:\Users\rafae\source\repos\LionEngine\LionEngine\bin\Debug\LionEngine.exe
+C:\Users\rafae\source\repos\LionEngine\LionEngine\bin\Debug\LionEngine.pdb
+C:\Users\rafae\source\repos\LionEngine\LionEngine\obj\Debug\LionEngine.csprojAssemblyReference.cache
+C:\Users\rafae\source\repos\LionEngine\LionEngine\obj\Debug\LionEngine.csproj.CoreCompileInputs.cache
+C:\Users\rafae\source\repos\LionEngine\LionEngine\obj\Debug\LionEngine.exe
+C:\Users\rafae\source\repos\LionEngine\LionEngine\obj\Debug\LionEngine.pdb
+C:\Users\rafae\source\repos\LionEngine\LionEngine\bin\Debug\NAudio.dll
+C:\Users\rafae\source\repos\LionEngine\LionEngine\bin\Debug\NAudio.xml
+C:\Users\rafae\source\repos\LionEngine\LionEngine\obj\Debug\LionEngine.csproj.CopyComplete

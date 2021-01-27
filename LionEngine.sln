@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LionEngine", "LionEngine\LionEngine.csproj", "{5B2376FC-E2D6-46D8-9665-9C453E2F81FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B2376FC-E2D6-46D8-9665-9C453E2F81FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B2376FC-E2D6-46D8-9665-9C453E2F81FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B2376FC-E2D6-46D8-9665-9C453E2F81FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B2376FC-E2D6-46D8-9665-9C453E2F81FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6FE3DE3-032B-4B96-A924-8A148452AF56}
+	EndGlobalSection
+EndGlobal
