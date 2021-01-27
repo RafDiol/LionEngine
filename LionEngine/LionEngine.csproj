@@ -68,7 +68,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="LionEngine\LionEngine.resx">
+      <DependentUpon>LionEngine.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Images\coin.jpg" />
     <Content Include="Images\img1.jpg" />

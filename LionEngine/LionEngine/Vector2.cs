@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace LionEngine.LionEngine
+﻿namespace LionEngine.LionEngine
 {
     public class Vector2
     {
@@ -66,6 +62,11 @@ namespace LionEngine.LionEngine
         public Vector2 Subtract(Vector2 vector)
         {
             return new Vector2(this.X - vector.X, this.Y - vector.Y);
+        }
+
+        public override string ToString()
+        {
+            return $"X: {X} Y: {Y}";
         }
     }
 }

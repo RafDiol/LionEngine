@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Drawing;
 using System.Threading;
@@ -13,6 +11,18 @@ namespace LionEngine.LionEngine
         public Canvas()
         {
             this.DoubleBuffered = true;
+        }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // Canvas
+            // 
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "Canvas";
+            this.ResumeLayout(false);
+
         }
     }
 
@@ -98,7 +108,7 @@ namespace LionEngine.LionEngine
                 }
                 catch
                 {
-                    Log.Error("Game has not started yet...");
+                    Window.Close();
                 }
             }
             OnClosed();
