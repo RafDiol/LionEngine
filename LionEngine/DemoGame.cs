@@ -11,7 +11,6 @@ namespace LionEngine
         bool left, right, up, down;
         float speed = 5f;
         Random rnd = new Random();
-        SoundPlayer soundPlayer;
 
         public DemoGame() : base(new Scale(512, 512), "New Game")
         {
@@ -20,19 +19,15 @@ namespace LionEngine
 
         public override void OnLoad()
         {
-            sprite = new Sprite2D(new Vector2(100, 100), new Scale(100, 100), @"C:\dev\LionEngine\LionEngine\Images\img1.jpg");
+            sprite = new Sprite2D(new Vector2(100, 100), new Scale(100, 100), @"C:\Users\rafae\Documents\GitHub\LionEngine\LionEngine\Images\img1.jpg");
             for (int i =0; i < 20; i++)
             {
-                Sprite2D coin = new Sprite2D(new Vector2(rnd.Next(0, 800), rnd.Next(0, 800)), new Scale(50, 50), @"C:\dev\LionEngine\LionEngine\Images\coin.jpg");
+                Sprite2D coin = new Sprite2D(new Vector2(rnd.Next(0, 800), rnd.Next(0, 800)), new Scale(50, 50), @"C:\Users\rafae\Documents\GitHub\LionEngine\LionEngine\Images\coin.jpg");
             }
-            //soundPlayer = new SoundPlayer(@"C:\dev\LionEngine\LionEngine\Sounds\big_bopper_hello_baby.wav");
-            //Thread thread = new Thread(() => playMusic());
-            //thread.Start();
         }
 
         public override void OnUpdate()
         {
-            Log.Normal(Vector2.Zero());
             Movement();
             Object collide;
             if (sprite.isColliding(out collide))
@@ -83,15 +78,6 @@ namespace LionEngine
             if (right)
             {
                 sprite.Position.X += speed;
-            }
-        }
-
-        private void playMusic()
-        {
-            soundPlayer.Play();
-            while (true)
-            {
-                Log.Info(soundPlayer.isPlaying.ToString());
             }
         }
     }

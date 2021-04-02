@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Drawing;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace LionEngine.LionEngine
 {
@@ -71,7 +73,8 @@ namespace LionEngine.LionEngine
 
         public void DestroySelf()
         {
-            LionEngine.UnregisterSprite(this);
+            Thread thread = new Thread(() => LionEngine.UnregisterSprite(this));
+            thread.Start();
         }
     }
 }

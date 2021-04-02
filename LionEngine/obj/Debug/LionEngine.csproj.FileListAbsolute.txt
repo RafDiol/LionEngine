@@ -19,3 +19,13 @@ C:\dev\LionEngine\LionEngine\obj\Debug\LionEngine.exe
 C:\dev\LionEngine\LionEngine\obj\Debug\LionEngine.pdb
 C:\dev\LionEngine\LionEngine\obj\Debug\LionEngine.LionEngine.Canvas.resources
 C:\dev\LionEngine\LionEngine\obj\Debug\LionEngine.csproj.GenerateResource.cache
+C:\Users\rafae\Documents\GitHub\LionEngine\LionEngine\obj\Debug\LionEngine.csprojAssemblyReference.cache
+C:\Users\rafae\Documents\GitHub\LionEngine\LionEngine\obj\Debug\LionEngine.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Documents\GitHub\LionEngine\LionEngine\obj\Debug\LionEngine.exe
+C:\Users\rafae\Documents\GitHub\LionEngine\LionEngine\obj\Debug\LionEngine.pdb
+C:\Users\rafae\Documents\GitHub\LionEngine\LionEngine\bin\Debug\LionEngine.exe.config
+C:\Users\rafae\Documents\GitHub\LionEngine\LionEngine\bin\Debug\LionEngine.exe
+C:\Users\rafae\Documents\GitHub\LionEngine\LionEngine\bin\Debug\LionEngine.pdb
+C:\Users\rafae\Documents\GitHub\LionEngine\LionEngine\bin\Debug\NAudio.dll
+C:\Users\rafae\Documents\GitHub\LionEngine\LionEngine\bin\Debug\NAudio.xml
+C:\Users\rafae\Documents\GitHub\LionEngine\LionEngine\obj\Debug\LionEngine.csproj.CopyComplete

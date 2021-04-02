@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using System.Drawing;
 using System.Threading;
+using System;
 
 namespace LionEngine.LionEngine
 {
@@ -28,11 +29,18 @@ namespace LionEngine.LionEngine
 
     public abstract class LionEngine
     {
+        public enum DrawableObjects
+        {
+            Shape2D, Sprite2D
+        }
+        List<DrawableObjects> drawingOrder =  new List<DrawableObjects>();
+
         private Scale ScreenSize = new Scale(512, 512);
         private string Title;
         private Canvas Window = null;
         private Thread GameLoopThread;
-
+        private bool isRendering;
+        
         public Color BackgroundColor = Color.Aqua;
 
         private static List<Shape2D> AllShapes2D = new List<Shape2D>();
@@ -179,6 +187,7 @@ namespace LionEngine.LionEngine
 
         private void Renderer(object sender, PaintEventArgs e)
         {
+            isRendering = true;
             Graphics graphics = e.Graphics;
             graphics.Clear(BackgroundColor);
 
@@ -190,6 +199,7 @@ namespace LionEngine.LionEngine
             {
                 graphics.DrawImage(sprite.Sprite, sprite.Position.X, sprite.Position.Y, sprite.Scale.Width, sprite.Scale.Height);
             }
+            isRendering = false;
         }
 
         // Methods the user can implement

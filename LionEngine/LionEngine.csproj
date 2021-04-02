@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>LionEngine.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="NAudio, Version=1.10.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\NAudio.1.10.0\lib\net35\NAudio.dll</HintPath>
@@ -50,17 +53,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DemoGame.cs" />
-    <Compile Include="LionEngine\Collider.cs" />
-    <Compile Include="LionEngine\LionEngine.cs">
+    <Compile Include="LionEngine\Core\Collider.cs" />
+    <Compile Include="LionEngine\Core\LionEngine.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LionEngine\Log.cs" />
-    <Compile Include="LionEngine\Scale.cs" />
-    <Compile Include="LionEngine\Shape2D.cs" />
-    <Compile Include="LionEngine\Sound\SoundPlayer.cs" />
-    <Compile Include="LionEngine\Sound\SoundRecorder.cs" />
-    <Compile Include="LionEngine\Sprite2D.cs" />
-    <Compile Include="LionEngine\Vector2.cs" />
+    <Compile Include="LionEngine\Core\Log.cs" />
+    <Compile Include="LionEngine\Core\Scale.cs" />
+    <Compile Include="LionEngine\Core\Shape2D.cs" />
+    <Compile Include="LionEngine\Core\Sprite2D.cs" />
+    <Compile Include="LionEngine\Core\Vector2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -69,15 +70,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="LionEngine\LionEngine.resx">
-      <DependentUpon>LionEngine.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Images\coin.jpg" />
     <Content Include="Images\img1.jpg" />
-    <Content Include="Sounds\big_bopper_hello_baby.wav" />
-    <Content Include="Sounds\bird.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
